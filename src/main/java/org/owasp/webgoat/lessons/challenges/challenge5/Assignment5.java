@@ -66,7 +66,7 @@ public class Assignment5 extends AssignmentEndpoint {
       if (resultSet.next()) {
         return success(this).feedback("challenge.solved").feedbackArgs(flags.getFlag(5)).build();
       } else {
-        return failed(this).feedback("challenge.close").build();S
+        return failed(this).feedback("challenge.close").build();
       }
     }
   }
